@@ -1,16 +1,18 @@
-body{
+body {
     background-color: bisque;
 }
-.div{
+
+.div {
     opacity: 80%;
     margin: 0;
     padding: 0;
     position: sticky;
-        top: 0px;
-        z-index: 10;
+    top: 0px;
+    z-index: 10;
 }
+
 .divnav {
-    
+
     width: 100%;
     height: 70px;
     background-color: bisque;
@@ -30,18 +32,19 @@ body{
     position: relative;
     /* bottom: 10px; */
 }
-li{
+
+li {
     list-style: none;
 }
 
 a {
     font-size: x-large;
-    color:black;
-     list-style: none;
-     text-decoration: none;
+    color: black;
+    list-style: none;
+    text-decoration: none;
 }
 
-.bouton{
+.bouton {
     width: 200px;
     height: 60px;
     background-color: #02f50f;
@@ -54,17 +57,17 @@ a {
 
 
 
-.divarriereplan{
+.divarriereplan {
     /* background-color: rgb(216, 191, 191); */
     border-radius: 25px;
-height: 880px;
-position: relative;
-top: 20px;
+    height: 880px;
+    position: relative;
+    top: 20px;
 
 
 }
 
-.imgarierplan{
+.imgarierplan {
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -72,7 +75,8 @@ top: 20px;
     height: 820px;
     border-radius: 25px;
 }
-.bjrmam{
+
+.bjrmam {
     height: 35px;
     position: absolute;
     right: 245px;
@@ -80,7 +84,7 @@ top: 20px;
     z-index: 3;
 }
 
-.vocal{
+.vocal {
     height: 60px;
     width: 460px;
     position: absolute;
@@ -89,7 +93,7 @@ top: 20px;
     z-index: 3;
 }
 
-.fill{
+.fill {
     height: 300px;
     position: absolute;
     right: 130px;
@@ -97,7 +101,7 @@ top: 20px;
     z-index: 3;
 }
 
-.paraENVOYE{
+.paraENVOYE {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     flex-wrap: wrap;
     color: aliceblue;
@@ -108,19 +112,19 @@ top: 20px;
     z-index: 2;
 }
 
-.paraDesmessage{
+.paraDesmessage {
     flex-wrap: wrap;
-        color: aliceblue;
-        font-size: 15px;
-        position: absolute;
-        bottom: 198px;
-        left: 135px;
-        z-index: 2;
-        font-weight: bold;
+    color: aliceblue;
+    font-size: 15px;
+    position: absolute;
+    bottom: 198px;
+    left: 135px;
+    z-index: 2;
+    font-weight: bold;
 }
 
-.cafe{
-    
+.cafe {
+
     position: absolute;
     right: 120px;
     top: 100px;
@@ -135,7 +139,8 @@ top: 20px;
     bottom: 200px;
     z-index: 3;
 }
-.bas{
+
+.bas {
     position: absolute;
     bottom: 124px;
     left: 140px;
@@ -143,7 +148,7 @@ top: 20px;
     /* border: #d51313; */
 }
 
-.frais{
+.frais {
     position: absolute;
     bottom: 25px;
     right: 6px;
@@ -151,9 +156,9 @@ top: 20px;
     color: rgb(13, 14, 15);
 }
 
-.divapresarrierplan{
+.divapresarrierplan {
     flex-wrap: wrap;
-background-color: rgb(221, 0, 0);
+    background-color: rgb(221, 0, 0);
     border-radius: 25px;
     height: 1280px;
     position: relative;
@@ -161,23 +166,26 @@ background-color: rgb(221, 0, 0);
     position: relative;
 }
 
-.profil1{
+.profil1 {
     width: 45%;
-   height: 138px;
+    height: 138px;
     position: absolute;
     right: 30px;
     top: 0px;
     z-index: 3;
 }
-.profil2{
+
+.profil2 {
     left: 20px;
 }
+
 .profil {
     height: 138px;
     left: 20px;
     bottom: 650px;
     position: absolute;
 }
+
 .profil3 {
     height: 138px;
     position: absolute;
@@ -185,19 +193,19 @@ background-color: rgb(221, 0, 0);
     bottom: 650px;
 }
 
-.divmess{
+.divmess {
     justify-items: center;
     width: 650px;
     height: 300px;
     position: absolute;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     /* border-style: double; */
     left: 300px;
-   
-    
+
+
 }
 
-.lesMesset{
+.lesMesset {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     align-self: center;
@@ -206,73 +214,85 @@ background-color: rgb(221, 0, 0);
     width: 600px;
     text-align: center;
 }
-.fmlle{
+
+.fmlle {
     position: absolute;
     bottom: 0px;
     right: 250px;
     width: 300px;
 
 }
-.divNeManquez{
-    
+
+.divNeManquez {
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position: absolute;
-        left: 50px;
-        bottom: 195px;
-        width: 600px;
-        text-align: center;
-        border-style: dotted;
-        border-color: blue;
+    position: absolute;
+    left: 50px;
+    bottom: 195px;
+    width: 600px;
+    text-align: center;
+    border-style: dotted;
+    border-color: blue;
 }
-.NeMAnquez{
+
+.NeMAnquez {
     position: relative;
     text-align: justify;
     left: 39px;
     width: 450px;
 }
-.QueSeSoi{
+
+.QueSeSoi {
     width: 450px;
     position: relative;
     font-size: 20px;
     top: 1px;
     bottom: 20px;
     left: 39px;
-    text-align:justify;
+    text-align: justify;
 }
-.DivSavoirPlus{
-position: relative;
-top: 2px;
-right: 206px;
-bottom: 25px;
+
+.DivSavoirPlus {
+    position: relative;
+    top: 2px;
+    right: 206px;
+    bottom: 25px;
 }
-.SavoirPlus{
+
+.SavoirPlus {
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
 }
-.DivPrcpCiffré{
+
+.DivPrcpCiffré {
     position: relative;
     background-color: rgba(3, 1, 10, 0.951);
     width: 100%;
     height: 1000px;
 }
-.telchiffré{
+
+.telchiffré {
     position: relative;
     left: 175px;
     top: 100px;
 }
-.DicuDiv{
+
+.DicuDiv {
     position: absolute;
     right: 230px;
     top: 98px;
 }
-.discuTxt{
-position: relative;
-color: aliceblue;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
-font-size: 5rem;
-font-weight: normal;
-top: 80px;
+
+.discuTxt {
+    position: relative;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 5rem;
+    font-weight: normal;
+    top: 80px;
 }
-.lbmnt{
+
+.lbmnt {
     font-size: 5rem;
     color: #02f50f;
     position: relative;
@@ -280,8 +300,8 @@ top: 80px;
     font-weight: normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
 }
-.vosmessdiv{
-    /* background-color: #02f50f; */
+
+.vosmessdiv {
     width: 300px;
     height: 120px;
     position: absolute;
@@ -291,14 +311,70 @@ top: 80px;
 
 }
 
-.vosmestxt{
-   font-size: 18px;
+.vosmestxt {
+    font-size: 18px;
     color: aliceblue;
     flex-wrap: wrap;
 }
-.SavoirPlus2{
-    color: aliceblue;
+
+.SavoirPlus2 {
+    color: rgb(2, 2, 2);
     position: absolute;
-    right: 420px;
-    bottom: 410px;
+    left: 40px;
+  bottom: -125px;
+}
+
+.DivBlancheAprsTelChiffre {
+    background-color: bisque;
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    height: 890px;
+    z-index: 3;
+}
+
+
+
+.GardContactDiv {
+    position: absolute;
+    z-index: 5;
+    top: 240px;
+    left: 15px;
+    flex-wrap: wrap;
+}
+
+.GardContacTxt {
+    flex-wrap: wrap;
+    line-height: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+.dpl {
+    position: relative;
+    left: 35px;
+    font-size: 80px;
+}
+
+.QueSeSoi2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    position: absolute;
+    top: 165px;
+}
+.telSrwhat {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+.CausriSrwhat {
+    height: 480px;
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    z-index: 6;
+}
+
+.DivPourSouriante{
+background-color: blueviolet;
+width: 100%;
+height: 800px;
 }
