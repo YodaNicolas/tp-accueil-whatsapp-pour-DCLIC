@@ -1,0 +1,304 @@
+body{
+    background-color: bisque;
+}
+.div{
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+        top: 0px;
+        z-index: 10;
+}
+.divnav {
+    
+    width: 100%;
+    height: 70px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    /* bottom: 10px; */
+}
+li{
+    list-style: none;
+}
+
+a {
+    font-size: x-large;
+    color:black;
+     list-style: none;
+     text-decoration: none;
+}
+
+.bouton{
+    width: 200px;
+    height: 60px;
+    background-color: #02f50f;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.divarriereplan{
+    /* background-color: rgb(216, 191, 191); */
+    border-radius: 25px;
+height: 880px;
+position: relative;
+top: 20px;
+
+
+}
+
+.imgarierplan{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 820px;
+    border-radius: 25px;
+}
+.bjrmam{
+    height: 35px;
+    position: absolute;
+    right: 245px;
+    top: 100px;
+    z-index: 3;
+}
+
+.vocal{
+    height: 60px;
+    width: 460px;
+    position: absolute;
+    right: 170px;
+    top: 240px;
+    z-index: 3;
+}
+
+.fill{
+    height: 300px;
+    position: absolute;
+    right: 130px;
+    top: 307px;
+    z-index: 3;
+}
+
+.paraENVOYE{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-size: 85px;
+    position: absolute;
+    top: 15px;
+    left: 135px;
+    z-index: 2;
+}
+
+.paraDesmessage{
+    flex-wrap: wrap;
+        color: aliceblue;
+        font-size: 15px;
+        position: absolute;
+        bottom: 198px;
+        left: 135px;
+        z-index: 2;
+        font-weight: bold;
+}
+
+.cafe{
+    
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    z-index: 3;
+}
+
+.hat {
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    right: 220px;
+    bottom: 200px;
+    z-index: 3;
+}
+.bas{
+    position: absolute;
+    bottom: 124px;
+    left: 140px;
+    z-index: 3;
+    /* border: #d51313; */
+}
+
+.frais{
+    position: absolute;
+    bottom: 25px;
+    right: 6px;
+    z-index: 3;
+    color: rgb(13, 14, 15);
+}
+
+.divapresarrierplan{
+    flex-wrap: wrap;
+background-color: rgb(221, 0, 0);
+    border-radius: 25px;
+    height: 1280px;
+    position: relative;
+    top: 20px;
+    position: relative;
+}
+
+.profil1{
+    width: 45%;
+   height: 138px;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    z-index: 3;
+}
+.profil2{
+    left: 20px;
+}
+.profil {
+    height: 138px;
+    left: 20px;
+    bottom: 650px;
+    position: absolute;
+}
+.profil3 {
+    height: 138px;
+    position: absolute;
+    right: 20px;
+    bottom: 650px;
+}
+
+.divmess{
+    justify-items: center;
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    flex-wrap: wrap; 
+    /* border-style: double; */
+    left: 300px;
+   
+    
+}
+
+.lesMesset{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    align-self: center;
+    top: 200px;
+    font-size: xx-large;
+    width: 600px;
+    text-align: center;
+}
+.fmlle{
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    width: 300px;
+
+}
+.divNeManquez{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        left: 50px;
+        bottom: 195px;
+        width: 600px;
+        text-align: center;
+        border-style: dotted;
+        border-color: blue;
+}
+.NeMAnquez{
+    position: relative;
+    text-align: justify;
+    left: 39px;
+    width: 450px;
+}
+.QueSeSoi{
+    width: 450px;
+    position: relative;
+    font-size: 20px;
+    top: 1px;
+    bottom: 20px;
+    left: 39px;
+    text-align:justify;
+}
+.DivSavoirPlus{
+position: relative;
+top: 2px;
+right: 206px;
+bottom: 25px;
+}
+.SavoirPlus{
+    font-size: 20px;
+}
+.DivPrcpCiffré{
+    position: relative;
+    background-color: rgba(3, 1, 10, 0.951);
+    width: 100%;
+    height: 1000px;
+}
+.telchiffré{
+    position: relative;
+    left: 175px;
+    top: 100px;
+}
+.DicuDiv{
+    position: absolute;
+    right: 230px;
+    top: 98px;
+}
+.discuTxt{
+position: relative;
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+font-size: 5rem;
+font-weight: normal;
+top: 80px;
+}
+.lbmnt{
+    font-size: 5rem;
+    color: #02f50f;
+    position: relative;
+    bottom: 87px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+.vosmessdiv{
+    /* background-color: #02f50f; */
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    right: 235px;
+    top: 390px;
+    z-index: 3;
+
+}
+
+.vosmestxt{
+   font-size: 18px;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+.SavoirPlus2{
+    color: aliceblue;
+    position: absolute;
+    right: 420px;
+    bottom: 410px;
+}
