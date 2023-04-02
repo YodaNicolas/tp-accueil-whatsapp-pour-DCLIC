@@ -27,6 +27,7 @@ body {
 }
 
 .logo {
+    margin-right: 50px;
     width: 150px;
     height: 40px;
     position: relative;
@@ -34,6 +35,8 @@ body {
 }
 
 li {
+    position: relative;
+    left: 10px;
     list-style: none;
 }
 
@@ -43,8 +46,14 @@ a {
     list-style: none;
     text-decoration: none;
 }
-
+.derou{
+    position: relative;
+    height: 15px;
+    width: 10px;
+}
 .bouton {
+    left: 96px;
+    position: relative;
     width: 200px;
     height: 60px;
     background-color: #02f50f;
@@ -83,6 +92,13 @@ a {
     top: 100px;
     z-index: 3;
 }
+.coeur{
+    height: 35px;
+        position: absolute;
+        right: 310px;
+        top: 120px;
+        z-index: 3;
+}
 
 .vocal {
     height: 60px;
@@ -99,6 +115,13 @@ a {
     right: 130px;
     top: 307px;
     z-index: 3;
+}
+.tete{
+    height: 300px;
+        position: absolute;
+        right: 530px;
+        top: 0px;
+        z-index: 4;
 }
 
 .paraENVOYE {
@@ -145,7 +168,7 @@ a {
     bottom: 124px;
     left: 140px;
     z-index: 3;
-    /* border: #d51313; */
+    border-style: none;
 }
 
 .frais {
@@ -158,7 +181,7 @@ a {
 
 .divapresarrierplan {
     flex-wrap: wrap;
-    background-color: rgb(221, 0, 0);
+    /* background-color: rgb(221, 0, 0); */
     border-radius: 25px;
     height: 1280px;
     position: relative;
@@ -231,8 +254,8 @@ a {
     bottom: 195px;
     width: 600px;
     text-align: center;
-    border-style: dotted;
-    border-color: blue;
+    /* border-style: dotted;
+    border-color: blue; */
 }
 
 .NeMAnquez {
@@ -319,9 +342,15 @@ a {
 
 .SavoirPlus2 {
     color: rgb(2, 2, 2);
-    position: absolute;
+    position: relative;
+
+
+}
+
+.Posi {
+    position: relative;
+    top: 130px;
     left: 40px;
-  bottom: -125px;
 }
 
 .DivBlancheAprsTelChiffre {
@@ -346,7 +375,8 @@ a {
 .GardContacTxt {
     flex-wrap: wrap;
     line-height: 50px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
 }
 
 .dpl {
@@ -360,11 +390,13 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
     position: absolute;
     top: 165px;
 }
+
 .telSrwhat {
     position: absolute;
     right: 200px;
     top: 100px;
 }
+
 .CausriSrwhat {
     height: 480px;
     position: absolute;
@@ -373,8 +405,310 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
     z-index: 6;
 }
 
-.DivPourSouriante{
-background-color: blueviolet;
-width: 100%;
-height: 800px;
+
+
+.TaillDivPrcpl {
+    width: 100%;
+    height: 900px;
+    bottom: -85px;
+}
+
+.ColorDivPrcpl {
+    background-color: bisque
+}
+
+.PositionImg {
+    position: absolute;
+    z-index: 4;
+    left: 250px;
+}
+
+.masque {
+    position: absolute;
+    z-index: 5;
+    top: 145px;
+    left: -60px;
+    height: 360px;
+}
+
+.Texte {
+    width: 450px;
+    position: relative;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+.PositionTexte {
+    position: relative;
+    bottom: 20px;
+}
+
+.DivDetexte {
+    /* border-style: solid;
+    border-color: #02f50f; */
+    width: 500px;
+}
+
+.PositionDivDeTexte {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.TitreTexte {
+    font-size: 80px;
+    flex-wrap: wrap;
+    line-height: 50px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+
+
+.PositionTitreTexte {
+    position: relative;
+
+}
+
+.ColorDivPrcplEpice {
+    background-color: bisque
+}
+
+.PositionImgEpice {
+    position: absolute;
+    z-index: 4;
+    right: 25px;
+}
+
+.PositionDivDeTexteEpice {
+    position: relative;
+    left: 70px;
+    top: 70px;
+
+}
+
+.PositionTexteEpice {
+    position: absolute;
+}
+
+.DivContactezNous {
+    background-color: rgb(119, 236, 236);
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 7;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tailetposi {
+    position: relative;
+    font-size: 63px;
+    top: 60px;
+}
+
+.ConteneurDesCarreBlanc {
+    /* border-style: dashed;
+    border-color: #02f50f; */
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.CarresBlanc {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.IconeWhat {
+    position: relative;
+    top: 35px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.boutonLirPlus {
+    border-style: solid;
+    border-color: rgba(7, 7, 7, 0.583);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    height: 45px;
+}
+
+.LSBouton {
+    font-size: medium;
+    font-weight: normal;
+}
+
+.DivTextDeCarre {
+    position: relative;
+
+}
+
+.TitreDansCarre {
+    position: relative;
+    top: 28px;
+    left: 15px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+.ParaDansCarre {
+    font-size: small;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.PositionDivPrcple {
+    position: relative;
+    flex-wrap: wrap;
+    z-index: 6;
+}
+
+
+
+.GrndDiv {
+    position: relative;
+    background-color: rgb(17, 9, 34);
+    width: 100%;
+    height: 1100px;
+}
+
+.logoblanc {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    z-index: 8;
+}
+
+.BoutonFoot {
+    position: relative;
+    top: 300px;
+    left: 15px;
+    opacity: 50%;
+}
+
+.ConteneurLiens {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* border-style: solid;
+    border-color: blueviolet; */
+    width: 900px;
+    height: 250px;
+    left: 400px;
+    top: 45px;
+}
+
+.ColoneLien {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+}
+.pos1{
+    position: absolute;
+}
+.pos2{
+    position: absolute;
+    left: 220px;
+}
+.pos3{
+    position:absolute;
+    left: 470px;
+}
+.pos4{
+    position: absolute;
+    right: 2px;
+}
+
+.PtiTitre {
+    font: size 12px;
+    color: white;
+    
+}
+
+.FormatLiens {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+   
+    
+}
+
+.police {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+ font: size 801px;
+}
+.DerniereDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    left: 220px;
+    bottom: 70px;
+    width: 920px;
+    height: 80px;
+    border-top-color: rgb(96, 85, 85);
+    border-top-style: solid;
+}
+.Div2023{
+    top: 15px;
+        position: relative;
+    position: relative;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+.DivCondi{
+    display: flex;
+    gap: 8px;
+    margin-left: 45px;
+    margin-right: 60px;
+    top: 15px;
+    position: relative;
+  
+}
+
+.DivIcone{
+    top: 15px;
+        position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    left: 45px;
+}
+.taillogo{
+    
+    height: 50px;
+    width: 50px;
+}
+.lang{position: relative;
+    left: 0px;
+    color: white;
+}
+.boutonlang{
+    top: 15px;
+    position: relative;
+    margin-left: 250px;
+    background: none;
+    width: 280px;
+    height: 45px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
 }
